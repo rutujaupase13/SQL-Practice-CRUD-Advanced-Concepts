@@ -1,60 +1,34 @@
 This repository contains a complete SQL practice project that covers almost all concepts commonly asked in company assessments and interviews.
 I created this mini project to revise SQL fundamentals, understand relational database design, and practice real-world queries.
-
 The project includes:
-
 Database schema
-
 Sample data
-
 CRUD operations
-
 Joins
-
 Aggregations
-
 Group By & Having
-
 Subqueries
-
 Functions
-
 Views
-
 Stored Procedures
-
 Triggers
-
 Indexes
-
 Case statements
-
 Everything is organized into separate files so anyone can learn and practice step-by-step.
 
 📌 1. Project Overview
-
 The project uses a small database named company_db, which contains three simple tables:
-
 employees – stores employee details
-
 departments – stores department information
-
 projects – stores project assignments of employees
-
 This structure is enough to practice basic as well as advanced SQL concepts.
 
 📌 2. Database Schema
-
 The schema includes:
-
 Primary keys
-
 Foreign keys
-
 Unique constraints
-
 Data types
-
 Relationships between tables
 
 With this schema, you can practice joins, subqueries, and relational operations easily.
@@ -63,7 +37,6 @@ With this schema, you can practice joins, subqueries, and relational operations 
 
 Each table includes real-looking sample data.
 The data is kept simple so that it is easy to understand patterns and write queries quickly.
-
 Example data includes:
 
 Employee names
@@ -81,7 +54,6 @@ Projects assigned to employees
 This helps in writing meaningful queries instead of random numbers.
 
 📌 4. CRUD Operations
-
 CRUD stands for:
 
 Create → insert new records
@@ -136,7 +108,6 @@ Department-wise average salary
 Employee count per department
 
 📌 8. Subqueries
-
 Subqueries allow writing queries inside other queries.
 They are widely used in:
 
@@ -161,7 +132,6 @@ Mathematical functions
 These functions help transform or calculate data.
 
 📌 10. Views
-
 A view is a virtual table created using a query.
 It is very helpful for:
 
@@ -174,7 +144,6 @@ Reusing frequently used queries
 The repo includes a sample view combining employee, department, and salary information.
 
 📌 11. Stored Procedure
-
 Stored procedures allow storing a query as a reusable block.
 They help improve:
 
@@ -187,7 +156,6 @@ Security
 This project contains a simple stored procedure to fetch employee details by ID.
 
 📌 12. Trigger
-
 A trigger automatically runs when a specific action happens (INSERT, UPDATE, DELETE).
 Triggers are used for:
 
@@ -200,12 +168,10 @@ Automatic updates
 This project includes a trigger that logs salary changes.
 
 📌 13. Indexes
-
 Indexes make searching faster.
 An index on the email column demonstrates how indexing can improve query performance.
 
 📌 14. Case Expression
-
 CASE helps apply conditional logic inside SQL queries.
 Example: Categorizing employees as High, Medium, or Low salary group.
 
@@ -226,7 +192,6 @@ sql-practice-crud-and-advanced-concepts/
 ├── README.md
 
 📌 16. Purpose of This Project
-
 This mini project is designed to help in:
 
 Technical interviews
@@ -242,7 +207,6 @@ Practical hands-on SQL skill building
 Companies often ask real-world SQL scenarios during hiring, and this repo covers nearly all of them.
 
 📌 17. How to Use This Repository
-
 Create the database
 
 Run the schema file
